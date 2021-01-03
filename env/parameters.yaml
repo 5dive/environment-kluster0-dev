@@ -1,0 +1,15 @@
+adminUser:
+  password: local:kluster0/adminUser:password
+  username: sdive
+docker:
+  email: dsusheel@gmail.com
+  password: local:kluster0/docker:password
+  url: https://hub.docker.com/repository/docker/sdive/jx
+  username: sdive
+enableDocker: true
+pipelineUser:
+  email: dsusheel@gmail.com
+  token: local:kluster0/pipelineUser:token
+  username: 5dive
+prow:
+  hmacToken: local:kluster0/prow:hmacToken
